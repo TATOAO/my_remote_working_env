@@ -1,0 +1,4 @@
+[submodule "nvim_config"]
+	path = nvim_config
+	url = https://github.com/TATOAO/myconfig.git
+	branch = local

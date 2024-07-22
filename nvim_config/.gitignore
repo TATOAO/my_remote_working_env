@@ -1,0 +1,6 @@
+
+*
+!nvim/
+!.gitignore
+
+.nvim/lazy-lock.json
