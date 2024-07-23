@@ -1,10 +1,15 @@
 
 # Objective
 
+
 I hope this project can help people install Neovim, Python and many useful packages in a remote machine that has no public internet access.
 
 
 # usages
+
+## install developing tools
+
+
 
 config .env
 
