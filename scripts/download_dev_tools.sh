@@ -14,3 +14,5 @@ do
 	) 2>> logs/yum_download_stderr.txt 1>> logs/yum_download_stdout.txt
 done
 
+
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.gz -P $basic_devs
