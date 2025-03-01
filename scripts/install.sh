@@ -27,8 +27,10 @@ ln -s $target_path/usr/bin/ld.gold $target_path/usr/bin/ld
 cd ../..
 
 echo "export PATH=$target_path/bin:\$PATH" >> $user_config
-echo "export LD_LIBRARY_PATH=$target_path/usr/lib64:$LD_LIBRARY_PATH" >> $user_config
+echo "export LD_LIBRARY_PATH=$target_path/usr/lib64:\$LD_LIBRARY_PATH" >> $user_config
 echo "export PKG_CONFIG_PATH=$target_path/usr/lib/pkgconfig" >> $user_config
+
+export "export LIBRARY_PATH=$target_path/usr/lib64:\$LIBRARY_PATH" >> $user_config
 
 source $user_config
 
