@@ -13,6 +13,11 @@ Login Succeeded!
 
 docker pull registry.redhat.io/ubi8/ubi-minimal:8.10-1018
 
+docker pull redhat/ubi8-minimal
+
+
+docker run -it --name my_working_env redhat/ubi8-minimal
+
 
 
 # download basic
